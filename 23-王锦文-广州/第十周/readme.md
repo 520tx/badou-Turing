@@ -1,0 +1,5 @@
+cifar10-pytorch :使用pytorch1.2实现cifar10的训练与测试，训练的模型和数据集由于占内存，只上传代码。
+dataset：用于pytorch和tensorflow的简单神经网络训练和测试的数据集
+pytorch-simplenet：用pytorch实现简单的神经网络并训练与测试
+tf-simplenet：用tensorflow1.15搭建简单神经网络并训练与测试
+注：在windows7上使用pytorch1.2 调用loss.backward（）在训练结束后，程序不能退出，貌似是pytorch在windows7上的一个bug，在ubuntu系统下执行训练没有问题。
